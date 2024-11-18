@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/MainBlack"
+    android:orientation="vertical"
+    tools:context=".ui.auth.OnBoardingFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="@string/CoursesInOneProject"
+        android:textAlignment="center"
+        android:fontFamily="@font/roboto_regular_400"
+        android:textColor="@color/MainWhite"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/CoursesInOneProject"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_courses" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/tvBtnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/bg_button"
+        android:paddingVertical="12dp"
+        android:fontFamily="@font/roboto_medium_500"
+        android:text="@string/Continue"
+        android:textAlignment="center"
+        android:textColor="@color/MainWhite"
+        android:textSize="16sp" />
+
+</LinearLayout>

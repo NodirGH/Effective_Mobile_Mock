@@ -21,4 +21,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "Effective Mobile Mock"
 include(":app")
- 
+include(":data")
+include(":domain")
+include(":toolkit")

@@ -3,4 +3,23 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="CoursesInOneProject">Тысячи курсов \nв одном месте</string>
+    <string name="Register">Регистрация</string>
+    <string name="Login">Вход</string>
+    <string name="Email">Email</string>
+    <string name="Password">Пароль</string>
+    <string name="RewritePassword">Повторить пароль</string>
+    <string name="ExampleEmail">example@gmail.com</string>
+    <string name="EnterPassword">Введите пароль</string>
+    <string name="ReEnterPassword">Введите пароль ещё раз</string>
+    <string name="AlreadyHaveAccount">Уже есть аккаунт? <![CDATA[<span style="color:#12B956">Войти</span>]]></string>
+    <string name="NoAccount">Нету аккаунта? <![CDATA[<span style="color:#12B956">Регитрация</span>]]></string>
+    <string name="ForgotPassword">Забыл пароль</string>
+    <string name="Continue">Продолжить</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="odnaklassniki">odnaklassniki</string>
+    <string name="vkontakte">vkontakte</string>
+    <string name="Main">Главная</string>
+    <string name="Favorites">Избранное</string>
+    <string name="Account">Аккаунт</string>
 </resources>
