@@ -11,8 +11,8 @@ object Versions {
     const val kotlin = "1.6.10"
     const val timber = "5.0.1"
     const val navigationComponent = "2.5.2"
-    const val hilt = "2.42"
-    const val safeArgsPlugin = "2.4.1"
+    const val hilt = "2.49"
+    const val safeArgsPlugin = "2.5.0"
     const val adapterDelegate = "4.3.0"
     const val gson = "2.8.8"
 

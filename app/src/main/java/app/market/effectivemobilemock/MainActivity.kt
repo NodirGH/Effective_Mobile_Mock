@@ -12,7 +12,9 @@ import androidx.navigation.ui.setupWithNavController
 import app.market.effectivemobilemock.databinding.ActivityMainBinding
 import app.market.toolkit.extensions.hideAnimWithSlideDown
 import app.market.toolkit.extensions.showAnimWithSlideUp
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding

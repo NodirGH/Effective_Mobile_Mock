@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "app.market.toolkit"
-    compileSdk = 34
+    namespace = ConfigData.applicationId
+    compileSdk = ConfigData.compileSdk
 
     defaultConfig {
-        minSdk = 24
+        minSdk = ConfigData.minSdkVersion
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles("consumer-rules.pro")

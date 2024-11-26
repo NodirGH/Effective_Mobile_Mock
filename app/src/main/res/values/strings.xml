@@ -22,4 +22,6 @@
     <string name="Main">Главная</string>
     <string name="Favorites">Избранное</string>
     <string name="Account">Аккаунт</string>
+    <string name="search_courses">Search courses...</string>
+    <string name="ByDateAdded">По дате добавления</string>
 </resources>

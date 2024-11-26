@@ -15,4 +15,7 @@
     <color name="LightGreyText">#9A9DAF</color>
     <color name="Blue">#2683ED</color>
     <color name="Orange">#F95D00</color>
+    <color name="ItemCourseBg">#24252A</color>
+    <color name="TransparentBg">#4D24252A</color>
+    <color name="MoreTransparentBg">#99333A4D</color>
 </resources>

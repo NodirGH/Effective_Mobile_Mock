@@ -1,0 +1,3 @@
+package app.market.domain.adapter_delegate
+
+interface DisplayableItem

@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kapt)
+    alias(libs.plugins.hilt)
 }
 
 android {
@@ -53,4 +55,13 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation(libs.adapter.delegate)
+    implementation(libs.adapter.delegate.view.binding)
+
+    implementation(libs.hilt)
+    kapt(libs.hiltCompiler)
+
+
+    implementation(libs.gson)
 }
